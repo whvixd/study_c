@@ -52,8 +52,10 @@ Mkfile.old
 dkms.conf
 
 # remove build file
-*cmake-build-debug
-*debug
-*build
+**/cmake-build-debug
+**/debug
+**/build
 
-*.idea
+**/.idea
+**/.DS_Store
+**/*.iml
